@@ -18,7 +18,7 @@ int main(){
 
   printf("\n----------------------------------------\n");
     printf("              MENU                      \n");
-	printf("      1 - Calculo fatorial              \n");
+    printf("      1 - Calculo fatorial              \n");
     printf("      2 - Primo ou nao                  \n");
     printf("      3 - n Primos ou nao               \n");
     printf("      4 - Calculo de potencia            \n");
