@@ -9,24 +9,46 @@ int potencia ();
 int raiz ();
 int bissexto ();
 int media ();
+int mediap ();
+int hexa ();
 
 
 int main(){
   int num;
 
+  printf("\n----------------------------------------\n");
+    printf("              MENU                      \n");
+	printf("      1 - Calculo fatorial              \n");
+    printf("      2 - Primo ou nao                  \n");
+    printf("      3 - n Primos ou nao               \n");
+    printf("      4 - Calculo de potencia            \n");
+    printf("      5 - Calculo de Raiz               \n");
+    printf("      6 - Ano bissexto ou nao           \n");
+    printf("      7 - Calculo de media              \n");
+    printf("      8 - Calculo de media ponderada    \n");
+    printf("      9 - Matricula em hexadecimal      \n");
+    printf("      0 - SAIR                          \n");
+    printf("----------------------------------------\n");
+  
+  printf("\nEscolha uma das opcoes do menu de acordo com o respectivo numero: ");
   scanf ("%d", &num);
 
   int n, i ,A = 1;
   int x, z, w, a, t, exp, v, ano, p, k, h, matricula;
   float b, rz, nota1, nota2, notap1, notap2, notap3;
-  char nome[1000];
+  char nome[100];
+  char matriculah[10];
 	
 
-  
-  
 
 	switch (num){
-    case 1:
+    
+	case 0:
+		
+		printf("Voce saiu do menu !");
+		
+	  break;	
+	case 1 :
       
 	  scanf("%d",&n);
       int res = fatorial(n);
@@ -103,6 +125,13 @@ int main(){
       
       break;
     case 9 :
+    	
+    	printf("Informe o nome do aluno:\n");
+			scanf("%s" , &nome);
+			printf("digite a matricula do aluno\n");
+			scanf("%d" , &matricula);
+			
+			int res8 = hexa(h);
       
       break;
     default :
@@ -242,7 +271,15 @@ int mediap (int k) {
 }	
 	
 int hexa (int h) {
-
-
+	
+	int matricula;
+	char nome[100];
+    char matriculah[10];
+	
+	printf("Aluno: %s",nome);
+	printf(matriculah ,"%X",matricula);
+	printf("\nMatricula: %s" ,matriculah);
+	
+	return matriculah;
 
 }
