@@ -21,7 +21,7 @@ int main(){
     printf("      1 - Calculo fatorial              \n");
     printf("      2 - Primo ou nao                  \n");
     printf("      3 - n Primos ou nao               \n");
-    printf("      4 - Calculo de potencia            \n");
+    printf("      4 - Calculo de potencia           \n");
     printf("      5 - Calculo de Raiz               \n");
     printf("      6 - Ano bissexto ou nao           \n");
     printf("      7 - Calculo de media              \n");
