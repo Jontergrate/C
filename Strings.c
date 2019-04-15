@@ -12,19 +12,19 @@ int main () {
 	strcpy(string,string1);
 	printf("\n%s", string);
 	
-//  comparação entre duas strings  //	
+//  comparaÃ§Ã£o entre duas strings  //	
 	
 	printf("\n%d", strcmp(string, string1));
 	
-//  concatenação de duas strings  //
-		
-	printf("\n%d", strlen(string));
-
-//  retorna tamanho da string  //
+//  concatenaÃ§Ã£o de duas strings  //
 	
 	strcat(string, string1);
 	printf("\n%s\n",string);
 
+//  retorna tamanho da string  //
+	
+	printf("\n%d", strlen(string));
+	
 return 0;          
 
 }
